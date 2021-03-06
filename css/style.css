@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* my style */
+*{
+    margin: 0;
+}
+body{
+    background-color:#aad4cf ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* container */
+.container{
+    background-color: #d4e9e7;
+    width: 1024px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* header */
+.header1{
+    background: url(../images/lone-starfish-wide.jpg) center center/cover no-repeat;
+    width: 1024px;
+    height: 338px;
+    position: relative;
+    margin-bottom: 2px;
+    text-align: center;
+}
+/* heading tags */
+h1{
+    color: #fff;
+    font-size: 64px;
+    padding-top: 220px;
+}
+article h2{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* nav  */
+nav ul li {
+    display: inline;
+}
+nav ul li a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 32%;
+    line-height: 40px;
+    text-decoration: none;
+    border-right: solid 2px gray;
+    text-align: center;
+
+}
+nav ul li:nth-child(3) a{
+    border-right: 0;
+}
+h2{
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+/* image */
+img{
+    float: left;
+    margin: 10px;
+}
+/* article */
+article p{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+article ul li{
+    list-style:disc;
+    margin-left: 25px;
+    
+}
+/* form */
+.form-wrap{
+    margin: 20px;
+    border: solid 1px black;
+}
+.form-wrap .form-group{
+    margin-top: 10px;
+    text-align: justify;
+}
+.form-wrap .form-group label{
+    display: block;
+    margin-left: 20px;
+    color: #666; 
+}
+.form-wrap .form-group input,
+.form-wrap .form-group textarea{
+    width: 920px;
+    padding:10px ;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form{
+    margin: 20px;
+}
+/* button */
+button{
+    margin: 10px;
+    border: 1px solid gray;
+    border-left:3px solid gray ;
+    border-right:3px solid gray ;
+    padding: 2px;
+    background-color:#d4e9e7 ;
+}
+.likes{
+    margin: 20px;
+}
+/* footer */
+footer p{
+    text-align: right;
+    margin-right: 16px;
+    padding-bottom: 16px;
+}
