@@ -107,12 +107,12 @@ nav ul li:nth-child(3) a{
 h2{
     font-size: 36px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /* image */
 img{
     float: left;
-    margin: 10px;
+    margin:0 20px 0 10px;
 }
 /* article */
 article p{
@@ -126,7 +126,7 @@ article ul li{
 }
 /* form */
 .form-wrap{
-    margin: 20px;
+    margin: 10px;
     border: solid 1px black;
 }
 .form-wrap .form-group{
@@ -136,7 +136,8 @@ article ul li{
 .form-wrap .form-group label{
     display: block;
     margin-left: 20px;
-    color: #666; 
+    color: #000; 
+    font-weight: bold;
 }
 .form-wrap .form-group input,
 .form-wrap .form-group textarea{
@@ -156,13 +157,14 @@ article ul li{
 button{
     margin: 10px;
     border: 1px solid gray;
-    border-left:3px solid gray ;
-    border-right:3px solid gray ;
-    padding: 2px;
+    padding: 12px;
     background-color:#d4e9e7 ;
 }
 .likes{
     margin: 20px;
+}
+.likes label{
+    margin-left: 15px;
 }
 /* footer */
 footer p{
